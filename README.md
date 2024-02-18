@@ -12,9 +12,9 @@ Copy my template and edit for your purposes. You can open template file in repos
   "version": "0.0.0",
   "description": "",
   "keywords": [],
-  "homepage": "https://github/socnik/{{repo}}#readme",
+  "homepage": "https://github.com/socnik/{{repo}}#readme",
   "bugs": {
-    "url": "https://github/socnik/{{repo}}/issues"
+    "url": "https://github.com/socnik/{{repo}}/issues"
   },
   "license": "MIT",
   "author": {
@@ -25,7 +25,7 @@ Copy my template and edit for your purposes. You can open template file in repos
   "bin": [],
   "repository": {
     "type": "git",
-    "url": "https://github/socnik/{{repo}}"
+    "url": "git+https://github.com/socnik/{{repo}}"
   },
   "scripts": {},
   "engines": {
