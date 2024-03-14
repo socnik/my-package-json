@@ -33,6 +33,6 @@ Copy my template and edit for your purposes. You can open template file in repos
   },
   "private": false,
   "prettier": "@socnik/my-prettier-config",
-  "packageManager": "pnpm>=8.10.0"
+  "packageManager": "pnpm@8.10.5"
 }
 ```
