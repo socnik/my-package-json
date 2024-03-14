@@ -2,9 +2,14 @@
 
 This is my favorite `package.json` template.
 
-# How use?
+## How use?
 
-Copy my template and edit for your purposes. You can open template file in repository by [this link](https://github.com/socnik/my-package-json/blob/main/template.package.json) or copy from this code block:
+Copy my template and edit it for your purposes. You can open the template file in the repository by [this link](https://github.com/socnik/my-package-json/blob/main/template.package.json) or copy it from the bottom code block. This `package.json` includes my [Prettier config](https://github.com/socnik/my-prettier-config). If you want to use it execute these commands:
+
+- **Pnpm:** `pnpm add -D prettier @socnik/my-prettier-config`
+- **Npm:** `npm i --dev prettier @socnik/my-prettier-config`
+
+## Template content:
 
 ```json
 {
