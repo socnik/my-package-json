@@ -37,6 +37,7 @@ Copy my template and edit it for your purposes. You can open the template file i
     "node": ">=18.0.0"
   },
   "private": false,
+  "type": "module",
   "prettier": "@socnik/my-prettier-config",
   "packageManager": "pnpm@8.10.5"
 }
