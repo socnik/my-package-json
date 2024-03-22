@@ -16,22 +16,14 @@ Copy my template and edit it for your purposes. You can open the template file i
   "name": "",
   "version": "0.0.0",
   "description": "",
-  "license": "MIT",
   "scripts": {},
+  "license": "MIT",
   "keywords": [],
   "main": "",
   "bin": [],
   "files": [],
   "author": {
     "name": "Nikita"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/socnik/{{repo}}"
-  },
-  "homepage": "https://github.com/socnik/{{repo}}#readme",
-  "bugs": {
-    "url": "https://github.com/socnik/{{repo}}/issues"
   },
   "engines": {
     "node": ">=18.0.0"
