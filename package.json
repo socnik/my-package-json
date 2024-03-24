@@ -2,24 +2,20 @@
   "name": "my-package-json",
   "version": "0.0.0",
   "description": "This is my package.json config",
-  "homepage": "https://github.com/socnik/my-package-json#readme",
   "license": "MIT",
-  "author": {
-    "name": "Nikita"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/socnik/my-package-json"
-  },
   "scripts": {
     "format": "prettier --write ."
+  },
+  "author": {
+    "name": "Nikita"
   },
   "engines": {
     "node": ">=18.0.0"
   },
-  "private": false,
+  "private": true,
+  "type": "module",
   "prettier": "@socnik/my-prettier-config",
-  "packageManager": "pnpm>=8.10.0",
+  "packageManager": "pnpm@8.10.5",
   "devDependencies": {
     "@socnik/my-prettier-config": "^0.0.1",
     "prettier": "^3.2.5"

@@ -1,36 +1,17 @@
 # `package.json`
 
-This is my favorite `package.json` template.
+This is my favorite `package.json` templates.
 
 ## How use?
 
-Copy my template and edit it for your purposes. You can open the template file in the repository by [this link](https://github.com/socnik/my-package-json/blob/main/template.package.json) or copy it from the bottom code block. This `package.json` includes my [Prettier config](https://github.com/socnik/my-prettier-config). If you want to use it execute these commands:
+Copy template which you want use and edit it for your purposes. This repository contains two templates:
 
-- **Pnpm:** `pnpm add -D prettier @socnik/my-prettier-config`
-- **Npm:** `npm i --dev prettier @socnik/my-prettier-config`
+- [`app.template.package.json`](https://github.com/socnik/my-package-json/blob/main/app.template.package.json) - for apps
+- [`lib.template.package.json`](https://github.com/socnik/my-package-json/blob/main/lib.template.package.json) - for libs
 
-## Template content:
+### Prettier
 
-```json
-{
-  "name": "",
-  "version": "0.0.0",
-  "description": "",
-  "scripts": {},
-  "license": "MIT",
-  "keywords": [],
-  "main": "",
-  "bin": [],
-  "files": [],
-  "author": {
-    "name": "Nikita"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "private": false,
-  "type": "module",
-  "prettier": "@socnik/my-prettier-config",
-  "packageManager": "pnpm@8.10.5"
-}
-```
+This `package.json` templates includes my [Prettier config](https://github.com/socnik/my-prettier-config). If you want to use it execute one of these commands:
+
+- **For Pnpm:** `pnpm add -D prettier @socnik/my-prettier-config`
+- **For Npm:** `npm i --dev prettier @socnik/my-prettier-config`
