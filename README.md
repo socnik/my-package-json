@@ -1,5 +1,14 @@
 # `package.json`
 
+## ⚠️ Deperecated ⚠️
+
+This repository was deprecated and moved to [@socnik/ts-kit](https://github.com/socnik/ts-kit). 
+
+- `app.template.package.json` - now `init-app` template in [@socnik/ts-kit](https://github.com/socnik/ts-kit/tree/main/templates/init-app)
+- `lib.template.package.json` - now `init-lib` template in [@socnik/ts-kit](https://github.com/socnik/ts-kit/tree/main/templates/init-lib)
+
+---
+
 This is my favorite `package.json` templates.
 
 ## How use?
