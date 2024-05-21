@@ -1,0 +1,22 @@
+{
+  "name": "example",
+  "version": "0.0.0",
+  "description": "",
+  "author": "John Doe",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  },
+  "prettier": "https://github.com/socnik/my-prettier-config",
+  "dependencies": {},
+  "devDependencies": {
+    "@socnik/my-prettier-config": "1.0.6",
+    "prettier": "3.2.5"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "example",
+  "version": "0.0.0",
+  "description": "",
+  "author": "John Doe",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "exports": {},
+  "bin": {},
+  "files": [],
+  "keywords": [],
+  "repository": "github:socnik/example",
+  "homepage": "https://github.com/socnik/example#readme",
+  "bugs": "https://github.com/socnik/example/issues",
+  "private": false,
+  "type": "module",
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  },
+  "prettier": "https://github.com/socnik/my-prettier-config",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@socnik/my-prettier-config": "1.0.6",
+    "prettier": "3.2.5"
+  }
+}
