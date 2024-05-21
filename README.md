@@ -1,26 +1,31 @@
 # `package.json`
 
-## ⚠️ Deperecated ⚠️
+My preferred `package.json` templates which I use between projects.
 
-This repository was deprecated and moved to [@socnik/ts-kit](https://github.com/socnik/ts-kit). 
+## Usage
 
-- `app.template.package.json` - now `init-app` template in [@socnik/ts-kit](https://github.com/socnik/ts-kit/tree/main/templates/init-app)
-- `lib.template.package.json` - now `init-lib` template in [@socnik/ts-kit](https://github.com/socnik/ts-kit/tree/main/templates/init-lib)
+### Stage 0
 
----
+Download selected `package.json` template with [`degit`](https://github.com/Rich-Harris/degit).
 
-This is my favorite `package.json` templates.
+#### `package.json` for apps
 
-## How use?
+```shell
+npx degit @socnik/my-package-json/app.package.json
+```
 
-Copy template which you want use and edit it for your purposes. This repository contains two templates:
+#### `package.json` for libraries
 
-- [`app.template.package.json`](https://github.com/socnik/my-package-json/blob/main/app.template.package.json) - for apps
-- [`lib.template.package.json`](https://github.com/socnik/my-package-json/blob/main/lib.template.package.json) - for libs
+```shell
+npx degit @socnik/my-package-json/lib.package.json
+```
 
-### Prettier
+### Stage 1 (_optional_)
 
-This `package.json` templates includes my [Prettier config](https://github.com/socnik/my-prettier-config). If you want to use it execute one of these commands:
+Setup Prettier.
 
-- **For Pnpm:** `pnpm add -D prettier @socnik/my-prettier-config`
-- **For Npm:** `npm i --dev prettier @socnik/my-prettier-config`
+This `package.json` template includes a pre-configured Prettier with my [Prettier config](https://github.com/socnik/my-prettier-config). If you want to use it, follow the guide in [socnik/my-prettier-config](https://github.com/socnik/my-prettier-config#usage) repository.
+
+### Stage 2
+
+**Enjoy 🚀!**

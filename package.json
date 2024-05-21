@@ -1,23 +1,18 @@
 {
   "name": "my-package-json",
-  "version": "0.0.0",
-  "description": "This is my package.json config",
+  "author": "Nikita",
   "license": "MIT",
   "scripts": {
     "format": "prettier --write ."
   },
-  "author": {
-    "name": "Nikita"
-  },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20.0.0",
+    "pnpm": ">=9"
   },
-  "private": true,
   "type": "module",
   "prettier": "@socnik/my-prettier-config",
-  "packageManager": "pnpm@8.10.5",
   "devDependencies": {
-    "@socnik/my-prettier-config": "^0.0.1",
-    "prettier": "^3.2.5"
+    "@socnik/my-prettier-config": "1.0.6",
+    "prettier": "3.2.5"
   }
 }
