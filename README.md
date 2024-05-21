@@ -8,16 +8,22 @@ My preferred `package.json` templates which I use between projects.
 
 Download selected `package.json` template with [`degit`](https://github.com/Rich-Harris/degit).
 
-#### `package.json` for apps
+#### `package.json` for apps _(come soon...)_
+
+`package.json` template optimized for applications.
 
 ```shell
-npx degit @socnik/my-package-json/app.package.json
+# COME SOON...
+# npx degit @socnik/my-package-json/app.package.json
 ```
 
-#### `package.json` for libraries
+#### `package.json` for libraries _(come soon...)_
+
+`package.json` template optimized for libraries (it includes fields such `keywords`, `repository`, `files`, etc.)
 
 ```shell
-npx degit @socnik/my-package-json/lib.package.json
+# COME SOON...
+# npx degit @socnik/my-package-json/lib.package.json
 ```
 
 ### Stage 1 (_optional_)
