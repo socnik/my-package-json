@@ -13,7 +13,7 @@ Download selected `package.json` template with [`degit`](https://github.com/Rich
 `package.json` template optimized for applications.
 
 ```shell
-npx degit @socnik/my-package-json/app.package.json
+npx degit @socnik/my-package-json/app.package.json package.json
 ```
 
 #### `package.json` for libraries
@@ -21,7 +21,7 @@ npx degit @socnik/my-package-json/app.package.json
 `package.json` template optimized for libraries (it includes fields such `keywords`, `repository`, `files`, etc.)
 
 ```shell
-npx degit @socnik/my-package-json/lib.package.json
+npx degit @socnik/my-package-json/lib.package.json package.json
 ```
 
 ### Stage 1 (_optional_)
